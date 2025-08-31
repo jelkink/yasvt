@@ -1,0 +1,14 @@
+================= yasvt =================
+
+
+To do
+=====
+
+- Add record keeping by tracking how often a question is asked and how often correctly answered, for each direction separately stored
+- Add more command style interface, with commands to read, test, write, summarize, etc.
+- Allow for random subset of file
+- Speed up wordlist reading by using memory blocks of more than 1 entry in size
+- Get license file
+- Upload to open source site (same as Io?)
+- Switch to JSON format file to allow for additional features; perhaps use http://lloydforge.org/projects/yajl/
+- In new file format: code language name; allow for different types / times of comments

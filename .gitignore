@@ -1,4 +1,7 @@
+yasvt
+
 # Object files
+src/*.d
 *.o
 *.ko
 *.obj

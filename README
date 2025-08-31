@@ -1,0 +1,25 @@
+================= yasvt =================
+
+
+Introduction
+============
+
+Yet another simple vocabulary trainer to quickly memorise a set of words, using a command line interface. The words needs to be entered in a separate text file.
+
+
+Usage
+=====
+
+yasvt [-h] [-d <direction>] [-n <number>] [-s <number>] -f <file>
+
+   -h, -?           Display this usage information
+   -d <direction>   Direction of questions: 0 = forward (default); 1 = backward; 2 = bidirectional
+   -s <number>      Line to start reading words
+   -n <number>      Number of words to use from list
+   -f <file>        File that contains yasvt wordlist (required)
+
+Wordlist format:
+
+<word1>;<word2>;<comments>
+
+whereby <word2> is the translation of <word1> and <comments> are printed after asking the question.
